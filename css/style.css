@@ -1,0 +1,104 @@
+/* font-family: 'Ubuntu', sans-serif; */
+
+
+/*Make Header image*/
+.back-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    border-radius: 0px;
+    margin-top: 74px;
+
+}
+/*
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('http://garudapr.in/wp-content/uploads/2017/12/loader.gif')
+	 no-repeat center center;	
+	z-index: 99999;
+}
+
+
+.loader_bg{
+    position: fixed;
+    z-index: 999999;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.loader{
+    border: 0 solid transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: center;
+    margin-top: 250px;
+    margin-left: 750px;
+    top: calc(50vh-75px);
+    left: calc(50vw-75px);
+}
+.loader:before, .loader:after{
+    content: '';
+    border: 1em solid #ff5733;
+    border-radius: 50%;
+    width:inherit;
+    position: center;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+.loader:before{
+    animation-delay: .5s;
+}
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity:1;
+    }
+    100%{
+        transform: scale(1);
+        opacity:0;
+    }
+}
+*/
+
+/*Change Brand Font*/
+.navbar-brand{
+    font-family:  'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+
+}
+/* Change Navigation Color*/
+.navbar #myMenu .custom-nav .nav-item a{
+    color:#fff;
+}
+
+
+/* Change Navigation Hover Color*/
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    color:#F0AAB1;
+}
+
+/*Change Link Color*/
+a {
+    color:#DC3545;
+}
+
+a:hover {
+    color:#E99A42;
+}
+
+.st {
+    font-size: 24px;
+}
